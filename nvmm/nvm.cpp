@@ -165,7 +165,6 @@ void Op_nop() {
 	if (debug) {
 		printf("IP= %d nop\n", IP - 1);
 	}
-	__asm NOP
 }
 
 void Op_ret() {
